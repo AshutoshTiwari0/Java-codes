@@ -1,0 +1,21 @@
+class is a grp of objects
+object is an entity which holds a value and has properties and behaviuor 
+jvm is responsible for creation of objects
+
+
+------------
+|   JDK     |
+| --------- |
+| |   JRE  ||
+| | 
+ |  JVM |  ||
+| ---------         |
+------------
+
+
+ dynamic method dispatch
+     in this we make classes and inherit them and we make a new object each time for a new class and assign all the objects to one varibale only 
+ obj= new a();
+     obj=new b();
+   obj=new c();
+   here each time a new object is created and assigned to same variable . so same variable is exsiting in many different forms.
