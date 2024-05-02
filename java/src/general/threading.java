@@ -30,9 +30,9 @@ public class threading {
         //obj.start();
        // System.out.println(obj.getPriority());
 
-        obj.setPriority(4);
+        obj.setPriority(5);
         try {
-            Thread.sleep(1000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             
             e.printStackTrace();
@@ -41,7 +41,7 @@ public class threading {
         //ob.start();
        // System.out.println(ob.getPriority());
 
-        ob.setPriority(10);
+        ob.setPriority(5);
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
